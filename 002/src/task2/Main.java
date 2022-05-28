@@ -12,11 +12,8 @@ public class Main {
             System.out.println("введіть " + (i + 1) + " значення");
             list.add(scanner.nextLine());
         }
-//        System.out.println(list);
 
         list = doubleValues(list);
-
-//        System.out.println(list);
 
         for (String s : list) {
             System.out.println(s);
@@ -24,7 +21,6 @@ public class Main {
     }
 
      static ArrayList<String> doubleValues(ArrayList<String> list) {
-
         ArrayList<String> listTemp = new ArrayList<>();
         for (String temp : list) {
             for (int i = 0; i < 2; i++) {
