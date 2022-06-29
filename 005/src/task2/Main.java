@@ -52,9 +52,9 @@ public class Main {
     }
 
     private static void constructorsToPrint(Class<?> classForInfo) {
-        Constructor[] constructors = classForInfo.getConstructors();
+        Constructor<?>[] constructors = classForInfo.getConstructors();
         System.out.println("Constructors:");
-        for (Constructor constructor : constructors) {
+        for (Constructor<?> constructor : constructors) {
             System.out.println("\t" + constructor);
         }
     }
