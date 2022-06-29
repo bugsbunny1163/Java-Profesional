@@ -41,6 +41,5 @@ public class Main {
             System.out.println("\tName: " + method.getName());
             System.out.println("\tModifier: " + Modifier.toString(method.getModifiers()));
         }
-
     }
 }
