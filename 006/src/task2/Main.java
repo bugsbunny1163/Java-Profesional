@@ -15,9 +15,9 @@ public class Main{
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         System.out.println(calculator.sum(8, 4));
-//        System.out.println(calculator.dif(1, 3));
-//        System.out.println(calculator.mul(1, 3));
-//        System.out.println(calculator.div(1, 3));
+        System.out.println(calculator.dif(1, 3));
+        System.out.println(calculator.mul(1, 3));
+        System.out.println(calculator.div(1, 3));
     }
 }
 

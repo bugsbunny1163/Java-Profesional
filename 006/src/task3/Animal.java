@@ -1,15 +1,23 @@
 package task3;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.Inherited;
-
-
-@Inherited
-@Documented
+@MyAnnoClass
 public class Animal {
-    private int qtyOfPaws = 8;
-    private boolean tail = false;
-    private String name = "Ant";
+    private int qtyOfPaws;
+    private boolean tail;
+    @MyAnno
+    private String name;
+
+    @Deprecated
+    public Animal(int qtyOfPaws, String name) {
+        this.qtyOfPaws = qtyOfPaws;
+        this.name = name;
+    }
+
+    public Animal(int qtyOfPaws, boolean tail, String name) {
+        this.qtyOfPaws = qtyOfPaws;
+        this.tail = tail;
+        this.name = name;
+    }
 
     @Override
     public String toString() {
@@ -19,5 +27,30 @@ public class Animal {
         sb.append(", name='").append(name).append('\'');
         sb.append('}');
         return sb.toString();
+    }
+
+    @MyAnno
+    public int getQtyOfPaws() {
+        return qtyOfPaws;
+    }
+
+    public void setQtyOfPaws(int qtyOfPaws) {
+        this.qtyOfPaws = qtyOfPaws;
+    }
+
+    public boolean isTail() {
+        return tail;
+    }
+
+    public void setTail(boolean tail) {
+        this.tail = tail;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

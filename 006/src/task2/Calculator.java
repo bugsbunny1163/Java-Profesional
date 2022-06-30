@@ -29,7 +29,6 @@ public class Calculator {
      * @param number2 second number
      * @return sum
      */
-    @MyAnno(number1 = 5, number2 = 3)
     public int sum(int number1, int number2) {
         return number1 + number2;
     }
