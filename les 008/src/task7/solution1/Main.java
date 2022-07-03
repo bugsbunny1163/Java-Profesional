@@ -6,6 +6,7 @@ public class Main {
         B b = new B();
         a.start();
         b.start();
+
     }
 }
 
