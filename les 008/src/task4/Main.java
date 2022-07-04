@@ -13,11 +13,25 @@ public class Main {
 class A extends Thread {
     @Override
     public void run() {
+        synchronized (A.class){
+            synchronized (B.class){
+                for (int i = 0; i < 50; i++) {
+                    System.out.println("class A");
+                }
+            }
+        }
     }
 }
 
 class B extends Thread {
     @Override
     public void run() {
+        synchronized (A.class){
+            synchronized (B.class){
+                for (int i = 0; i < 50; i++) {
+                    System.out.println("class B");
+                }
+            }
+        }
     }
 }
