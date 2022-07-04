@@ -4,34 +4,28 @@ public class Main {
     public static void main(String[] args) {
         A a = new A();
         B b = new B();
-        a.start();
-        b.start();
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 10; i++) {
+                    a.methodA();
+                    b.methodB();
+                }
+            }
+        });
+        thread.start();
     }
 }
 
 
-class A extends Thread {
-    @Override
-    public void run() {
-        synchronized (A.class){
-            synchronized (B.class){
-                for (int i = 0; i < 50; i++) {
-                    System.out.println("class A");
-                }
-            }
-        }
+class A {
+    public void methodA() {
+        System.out.println("A");
     }
 }
 
-class B extends Thread {
-    @Override
-    public void run() {
-        synchronized (A.class){
-            synchronized (B.class){
-                for (int i = 0; i < 50; i++) {
-                    System.out.println("class B");
-                }
-            }
-        }
+class B {
+    public void methodB() {
+        System.out.println("B");
     }
 }
