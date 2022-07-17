@@ -21,8 +21,6 @@ public class Main {
         streetList1.add(new Street("Zamkova St", houseList1));
         City city1 = new City("Lviv",streetList1,Size.BIG,800_000);
 
-
-
         JAXBContext contextObj = JAXBContext.newInstance(City.class);
         Marshaller marshaller = contextObj.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
