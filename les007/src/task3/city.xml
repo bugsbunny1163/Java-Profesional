@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <City size="BIG">
-    <population>800000</population>
     <name>Lviv</name>
+    <population>800000</population>
     <Street>
         <Street_name>Ivana Vyhovskoho St</Street_name>
         <House>

@@ -22,9 +22,10 @@ public class Main {
         City city1 = new City("Lviv",streetList1,Size.BIG,800_000);
 
 
+
         JAXBContext contextObj = JAXBContext.newInstance(City.class);
         Marshaller marshaller = contextObj.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        marshaller.marshal(city1, new FileOutputStream("src/task3/city.xml"));
+        marshaller.marshal(city1, new FileOutputStream("les007/src/task3/city.xml"));
     }
 }
