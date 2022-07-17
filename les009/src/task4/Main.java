@@ -2,6 +2,8 @@ package task4;
 
 public class Main {
     public static void main(String[] args) {
+        //todo зробити
+
 //        int a;
 //        int b;
         Calculator summa;

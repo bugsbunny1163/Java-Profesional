@@ -4,19 +4,8 @@
       <root url="jar://$PROJECT_DIR$/../../jaxb-api-2.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../jaxb-core-2.3.0.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../jaxb-impl-2.3.1.jar!/" />
-      <root url="file://$PROJECT_DIR$" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/les001/src" />
-      <root url="file://$PROJECT_DIR$/les002/src" />
-      <root url="file://$PROJECT_DIR$/les003/src" />
-      <root url="file://$PROJECT_DIR$/les004/src" />
-      <root url="file://$PROJECT_DIR$/les005/src" />
-      <root url="file://$PROJECT_DIR$/les006/src" />
-      <root url="file://$PROJECT_DIR$/les007/src" />
-      <root url="file://$PROJECT_DIR$/les008/src" />
-      <root url="file://$PROJECT_DIR$/les009/src" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

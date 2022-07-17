@@ -1,6 +1,8 @@
 package task4;
 
 public class Main {
+    //todo трохи не правильно зроблено, переробити
+
     public static void main(String[] args) {
         A a = new A();
         B b = new B();

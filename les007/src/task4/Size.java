@@ -1,4 +1,4 @@
-package task3;
+package task4;
 
 public enum Size {
     BIG, SMALL, MEDIUM;
