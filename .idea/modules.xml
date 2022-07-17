@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/001/001.iml" filepath="$PROJECT_DIR$/001/001.iml" />
-      <module fileurl="file://$PROJECT_DIR$/002/002.iml" filepath="$PROJECT_DIR$/002/002.iml" />
-      <module fileurl="file://$PROJECT_DIR$/003/003.iml" filepath="$PROJECT_DIR$/003/003.iml" />
-      <module fileurl="file://$PROJECT_DIR$/004/004.iml" filepath="$PROJECT_DIR$/004/004.iml" />
-      <module fileurl="file://$PROJECT_DIR$/005/005.iml" filepath="$PROJECT_DIR$/005/005.iml" />
-      <module fileurl="file://$PROJECT_DIR$/006/006.iml" filepath="$PROJECT_DIR$/006/006.iml" />
       <module fileurl="file://$PROJECT_DIR$/d007/007.iml" filepath="$PROJECT_DIR$/d007/007.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Profesional.iml" filepath="$PROJECT_DIR$/Java-Profesional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/les 007/les 007.iml" filepath="$PROJECT_DIR$/les 007/les 007.iml" />
-      <module fileurl="file://$PROJECT_DIR$/les 008/les 008.iml" filepath="$PROJECT_DIR$/les 008/les 008.iml" />
-      <module fileurl="file://$PROJECT_DIR$/les 009/les 009.iml" filepath="$PROJECT_DIR$/les 009/les 009.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les001/les001.iml" filepath="$PROJECT_DIR$/les001/les001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les002/les002.iml" filepath="$PROJECT_DIR$/les002/les002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les003/les003.iml" filepath="$PROJECT_DIR$/les003/les003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les004/les004.iml" filepath="$PROJECT_DIR$/les004/les004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les005/les005.iml" filepath="$PROJECT_DIR$/les005/les005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les006/les006.iml" filepath="$PROJECT_DIR$/les006/les006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les007/les007.iml" filepath="$PROJECT_DIR$/les007/les007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les008/les008.iml" filepath="$PROJECT_DIR$/les008/les008.iml" />
+      <module fileurl="file://$PROJECT_DIR$/les009/les009.iml" filepath="$PROJECT_DIR$/les009/les009.iml" />
     </modules>
   </component>
 </project>

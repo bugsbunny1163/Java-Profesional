@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<City size="BIG">
+    <population>800000</population>
+    <name>Lviv</name>
+    <Street>
+        <Street_name>Ivana Vyhovskoho St</Street_name>
+        <House>
+            <Number>1</Number>
+        </House>
+        <House>
+            <Number>2</Number>
+        </House>
+        <House>
+            <Number>3</Number>
+        </House>
+    </Street>
+    <Street>
+        <Street_name>Naukova St</Street_name>
+        <House>
+            <Number>1</Number>
+        </House>
+        <House>
+            <Number>2</Number>
+        </House>
+        <House>
+            <Number>3</Number>
+        </House>
+    </Street>
+    <Street>
+        <Street_name>Volodymyra Velykoho St</Street_name>
+        <House>
+            <Number>1</Number>
+        </House>
+        <House>
+            <Number>2</Number>
+        </House>
+        <House>
+            <Number>3</Number>
+        </House>
+    </Street>
+    <Street>
+        <Street_name>Zamkova St</Street_name>
+        <House>
+            <Number>1</Number>
+        </House>
+        <House>
+            <Number>2</Number>
+        </House>
+        <House>
+            <Number>3</Number>
+        </House>
+    </Street>
+</City>
