@@ -13,13 +13,12 @@ public class City {
     @XmlElement(name = "Street")
     private List<Street> streets;
     @XmlAttribute
-    private Size size;
-
+    private String size;
 
     public City() {
     }
 
-    public City(String name, List<Street> streets, Size size, int population) {
+    public City(String name, List<Street> streets, String size, int population) {
         this.name = name;
         this.streets = streets;
         this.size = size;
@@ -50,11 +49,11 @@ public class City {
         this.streets = streets;
     }
 
-    public Size getSize() {
+    public String getSize() {
         return size;
     }
 
-    public void setSize(Size size) {
+    public void setSize(String size) {
         this.size = size;
     }
 }

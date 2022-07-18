@@ -19,11 +19,11 @@ public class Main {
         streetList1.add(new Street("Naukova St", houseList1));
         streetList1.add(new Street("Volodymyra Velykoho St", houseList1));
         streetList1.add(new Street("Zamkova St", houseList1));
-        City city1 = new City("Lviv",streetList1,Size.BIG,800_000);
+        City city1 = new City("Lviv",streetList1,"BIG",800_000);
 
-        JAXBContext contextObj = JAXBContext.newInstance(City.class);
+        JAXBContext contextObj = JAXBContext.newInstance(city1.getClass());
         Marshaller marshaller = contextObj.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        marshaller.marshal(city1, new FileOutputStream("les007/src/task3/city.xml"));
+        marshaller.marshal(city1, new FileOutputStream("les007/src/task4/city.xml"));
     }
 }
