@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<City>
+    <city size="big">Lviv</city>
+    <Streets>
+        <street>Ivana Vyhovskoho St</street>
+        <street>Naukova St</street>
+        <street>Zamkova St</street>
+    </Streets>
+</City>

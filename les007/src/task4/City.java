@@ -1,6 +1,5 @@
 package task4;
 
-import task3.CityDesc;
 
 import javax.xml.bind.annotation.*;
 import java.util.List;
