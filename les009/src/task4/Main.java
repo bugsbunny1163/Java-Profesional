@@ -2,10 +2,6 @@ package task4;
 
 public class Main {
     public static void main(String[] args) {
-        //todo зробити
-
-//        int a;
-//        int b;
         Calculator summa;
         summa = (a, b) -> a + b;
         Calculator diff;
@@ -16,13 +12,13 @@ public class Main {
         div = (a, b) -> (a / b);
 
 
-        System.out.println(summa.calculating(1, 4));
-        System.out.println(diff.calculating(5, 1));
-        System.out.println(mul.calculating(5, 3));
-        System.out.println(div.calculating(6, 2));
+        System.out.println("сума " + summa.calculating(5, 2));
+        System.out.println("різниця " + diff.calculating(5, 2));
+        System.out.println("множення " + mul.calculating(5, 2));
+        System.out.println("ділення " + div.calculating(5, 2));
     }
 }
 
 interface Calculator {
-    int calculating(int a, int b);
+    double calculating(double a, double b);
 }
